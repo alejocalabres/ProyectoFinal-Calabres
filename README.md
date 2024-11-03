@@ -1,27 +1,70 @@
-# ProyectoFinal-Calabres
-Este proyecto es una aplicación de tipo e-commerce para una tienda de gomas y llantas, desarrollada como una Single Page Application (SPA) usando React. La aplicación permite a los usuarios explorar productos, agregarlos al carrito y realizar compras, guardando la información en Firebase Firestore.
+# Getting Started with Create React App
 
-Tecnologías Utilizadas
-React: Framework de JavaScript utilizado para crear la interfaz de usuario.
-React Router DOM: Para manejar la navegación entre las distintas vistas de la aplicación.
-Firebase Firestore: Base de datos en la nube para almacenar los productos y las órdenes de compra.
-Context API: Para manejar el estado global del carrito de compras.
-CSS: Estilado básico para la presentación de la UI.
-Funcionalidades
-Listado de Productos: Muestra todos los productos disponibles en la tienda.
-Vista Detallada del Producto: Muestra la descripción y el precio del producto seleccionado.
-Filtrado por Categoría: Permite navegar por las categorías de productos (e.g., llantas, neumáticos).
-Carrito de Compras: Los usuarios pueden agregar y quitar productos en el carrito, ver la cantidad total y el subtotal de cada producto.
-Checkout: Formulario para realizar la compra, que guarda la orden en Firebase Firestore y genera un ID de orden.
-Renderizado Condicional: Mensajes de carga, mensajes de error y mensajes para estados especiales, como “carrito vacío” o “producto sin stock”.
-Estructura de Componentes
-App: Componente principal que envuelve toda la aplicación.
-NavBar: Barra de navegación con enlaces a las distintas secciones.
-CartWidget: Ícono del carrito de compras que muestra el número total de productos.
-ItemListContainer: Contenedor principal para mostrar el listado de productos.
-ItemList y Item: Lista y componente individual para cada producto.
-ItemDetailContainer: Contenedor para la vista detallada del producto.
-ItemDetail: Componente de detalle del producto.
-ItemCount: Selector de cantidad de productos para agregar al carrito.
-Cart y CartItem: Muestra el contenido del carrito.
-CheckoutForm: Formulario de finalización de compra.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
